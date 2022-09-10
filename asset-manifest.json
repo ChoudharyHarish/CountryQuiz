@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/CountryQuiz/static/js/main.ed03654f.js",
+    "static/media/winner.svg": "/CountryQuiz/static/media/winner.d76bfdf87016eda38fd439d929ce0371.svg",
+    "static/media/logo.svg": "/CountryQuiz/static/media/logo.182b6171bba7c99e5444500b4daec361.svg",
+    "index.html": "/CountryQuiz/index.html",
+    "main.ed03654f.js.map": "/CountryQuiz/static/js/main.ed03654f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ed03654f.js"
+  ]
+}

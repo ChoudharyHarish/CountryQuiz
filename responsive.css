@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h1{
+    font-size: 2.1rem;
+    margin-right: 6rem;
+}
+.modal{
+    margin: 0rem 2rem;
+}
+.img-resp{
+    max-width: 30%;
+    left: 66%;
+    top: 33%;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+li{
+    padding: 0.6rem;
+    font-size: 15px;
+}
+
+footer{
+    left: 20%;
+}
+
+.globe{
+    top:25%
+}
+
+.h-loading{
+  margin-top: 1rem;
+  font-size: 1.5rem;   
+}
+
+.winner {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 70%;
+}
+.h-result{
+    margin-top: 1.5rem;
+}
+
+.flag{
+    max-width: 30%;
+    left: 34%;
+    top: 33%;
+}
+
+.h-captial{
+    margin: 0rem 1rem;
+}
