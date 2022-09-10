@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Footer from "./Footer";
+import Menu from "./Menu";
+import Capital from "./Capital"
+import Flag from "./Flag"
+
 
 function App() {
+
+  //Changin isCapital and isFlag here to render components conditionally in our Menu.js
+  let [isCapital, setCapital] = useState(false)
+  let [isFlag, setFlag] = useState(false)
+  function handleChangeState(id) {
+    if (id == "1") {
+      setCapital(!isCapital);
+    }
+    else {
+      setFlag(!isFlag)
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Menu isCapital={isCapital} isFlag={isFlag} changeState={handleChangeState} />
+      <Footer />
+    </>
   );
 }
 
